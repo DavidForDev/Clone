@@ -1,0 +1,296 @@
+{
+    "videos": [
+        {
+            "_id": 1,
+            "name": "Lofi Hip Hop - Chill mix/study - 1",
+            "image": "../images/chose-video-1.png",
+            "video": "../images/lofi.mp4",
+            "likes": "10",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3300",
+            "date": "Feb 23, 2021",
+            "time": "2.34"
+        },{
+            "_id": 2,
+            "name": "Lofi Hip Hop - Chill mix/study - 2",
+            "image": "../images/chose-video-1.png",
+            "video": "../images/1.mp4",
+            "likes": "70",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "57700",
+            "date": "Feb 23, 2021",
+            "time": "4.34"
+        },{
+            "_id": 3,
+            "name": "Lofi Hip Hop - Chill mix/study - 3",
+            "image": "../images/chose-video-1.png",
+            "video": "../images/2.mp4",
+            "likes": "300",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3000",
+            "date": "Feb 23, 2021",
+            "time": "3.04"
+        },{
+            "_id": 4,
+            "name": "Lofi Hip Hop - Chill mix/study - 4",
+            "image": "../images/chose-video-1.png",
+            "video": "../images/4.mp4",
+            "likes": "20",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3000",
+            "date": "Feb 23, 2021",
+            "time": "1.34"
+        },{
+            "_id": 5,
+            "name": "Lofi Hip Hop - Chill mix/study - 1",
+            "image": "../images/chose-video-1.png",
+            "likes": "10",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3300",
+            "date": "Feb 23, 2021",
+            "time": "2.34"
+        },{
+            "_id": 6,
+            "name": "Lofi Hip Hop - Chill mix/study - 2",
+            "image": "../images/chose-video-1.png",
+            "likes": "70",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "57700",
+            "date": "Feb 23, 2021",
+            "time": "4.34"
+        },{
+            "_id": 7,
+            "name": "Lofi Hip Hop - Chill mix/study - 3",
+            "image": "../images/chose-video-1.png",
+            "likes": "300",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3000",
+            "date": "Feb 23, 2021",
+            "time": "3.04"
+        },{
+            "_id": 8,
+            "name": "Lofi Hip Hop - Chill mix/study - 8",
+            "image": "../images/chose-video-1.png",
+            "likes": "20",
+            "description": "🤗 Thank you for listening",
+            "Comments": [
+                {
+                    "userName": "Anano Zirakidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "I like youu!!"},
+                        {"reply": "საქართველო !"}
+                    ]
+                },{
+                    "userName": "Areum",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "I like youu!!"},
+                        {"reply": "არა რა....."}
+                    ]
+                },{
+                    "userName": "David Takidze",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "I too"}
+                    ]
+                },{
+                    "userName": "Youtube Official",
+                    "comm": "I like it, thank's", 
+                    "replyes": [
+                        {"reply": "yes I agree you"}
+                    ]
+                }
+            ],
+            "views": "3000",
+            "date": "Feb 23, 2021",
+            "time": "1.34"
+        }
+    ],
+    "story": [
+        {
+            "_id": "1",
+            "activeIndicator": "active",
+            "firstName": "Anano",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "2",
+            "activeIndicator": "deactive",
+            "firstName": "David",
+            "lastName": "Takidze",
+            "image": ""
+        },{
+            "_id": "3",
+            "activeIndicator": "active",
+            "firstName": "Levani",
+            "lastName": "Takidze",
+            "image": ""
+        },{
+            "_id": "4",
+            "activeIndicator": "deactive",
+            "firstName": "Nini",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "5",
+            "activeIndicator": "active",
+            "firstName": "Lucas",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "6",
+            "activeIndicator": "active",
+            "firstName": "Tea",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "7",
+            "activeIndicator": "deactive",
+            "firstName": "Giorgi",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "8",
+            "activeIndicator": "active",
+            "firstName": "James",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "9",
+            "activeIndicator": "active",
+            "firstName": "Marita",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "10",
+            "activeIndicator": "active",
+            "firstName": "Anano",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "11",
+            "activeIndicator": "active",
+            "firstName": "Anano",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "12",
+            "activeIndicator": "deactive",
+            "firstName": "David",
+            "lastName": "Takidze",
+            "image": ""
+        },{
+            "_id": "13",
+            "activeIndicator": "active",
+            "firstName": "Levani",
+            "lastName": "Takidze",
+            "image": ""
+        },{
+            "_id": "14",
+            "activeIndicator": "active",
+            "firstName": "Nini",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "15",
+            "activeIndicator": "active",
+            "firstName": "Lucas",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "16",
+            "activeIndicator": "active",
+            "firstName": "Tea",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "17",
+            "activeIndicator": "deactive",
+            "firstName": "Giorgi",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "18",
+            "activeIndicator": "active",
+            "firstName": "James",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "19",
+            "activeIndicator": "active",
+            "firstName": "Marita",
+            "lastName": "Zirakidze",
+            "image": ""
+        },{
+            "_id": "20",
+            "activeIndicator": "active",
+            "firstName": "Anano",
+            "lastName": "Zirakidze",
+            "image": ""
+        }
+    ]
+}

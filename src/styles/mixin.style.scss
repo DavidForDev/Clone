@@ -1,0 +1,31 @@
+@mixin flex($justify, $align, $flexDicoration, $wrap) {
+    display: flex;
+    @if $justify {
+        justify-content: $justify;
+    }
+    @if $align {
+        align-items: $align;
+    }
+    @if $flexDicoration {
+        flex-direction: $flexDicoration;
+    }
+    @if $wrap {
+        flex-wrap: $wrap;
+    }
+}
+
+@mixin position($position, $margin) {
+    position: $position;
+    margin: $margin;
+}
+
+@mixin avatar($width, $border) {
+    width: $width;
+    height: $width;
+    @if $border {
+        border: $border;
+    }
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}

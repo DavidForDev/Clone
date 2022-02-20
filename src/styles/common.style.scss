@@ -1,0 +1,306 @@
+@import './mixin.style.scss';
+@import './reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+// ============= Colors
+
+$titleColor: rgba(255, 255, 255, 0.5);
+$white: #FFFFFF;
+$red: #C31432;
+
+// body, html ... =======================================
+
+html {
+    font-family: 'Roboto';
+    background-color: #22284C;
+}
+
+svg {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #E5E5E51A;
+    border-radius: 10px;
+}
+
+
+// container =======================================
+
+.container {
+    &-max {
+        width: 100%;
+        display: flex;
+        flex-basis: 400px;
+        flex-grow: 2;
+        flex-shrink: 10;
+    }
+    &-min {
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
+
+// Slider-box style =======================================
+
+.slider-box {
+    width: 100%;
+    margin-bottom: 85px;
+    position: relative;
+    .slider-boxes {
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        pointer-events: all;
+    }
+}
+
+// button =======================================
+
+.primary-btn {
+    width: 6rem;
+    height: 3em;
+    background-color: $red;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    outline: none;
+    transition: 0.2s ease-in;
+    z-index: 1;
+    position: relative;
+    &:hover {
+        border: 1px solid $red;
+        background-color: transparent;
+        transition: 0.5s;
+        box-shadow: rgba(195, 20, 49, 0.623) 0px 0px 8px 0px;
+    }
+}
+
+
+.burger {
+    cursor: pointer;
+    margin-right: 2rem;
+    div {
+        width: 1.8rem;
+        height: 0.1rem;
+        background-color: $titleColor;
+        margin: 0.4rem 0;
+    }
+}
+
+// text style =======================================
+
+.p {
+    &-silver {
+        color: $titleColor;
+    }
+    &-white {
+        color: $white;
+    }
+}
+
+h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 0.3rem 0;
+    &.silver {
+        color: $titleColor;
+    }
+    &.white {
+        color: $white;
+    }
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1rem;
+    &.silver {
+        color: $titleColor;
+        &-weight-normal {
+            font-weight: normal;
+            color: $titleColor;
+        }
+    }
+    &.white {
+        color: $white;
+        &-weight-normal {
+            font-weight: normal;
+            color: $white;
+        }
+    }
+}
+
+.silver {
+    color: $titleColor;
+    &-weight-normal {
+        font-weight: normal;
+        color: $titleColor;
+    }
+}
+.white {
+    color: $white;
+    &-weight-normal {
+        font-weight: normal;
+        color: $white;
+    }
+}
+
+.title {
+    &-silver {
+        color: $titleColor;
+        margin-bottom: 1rem;
+    }
+    &-white {
+        color: $white;
+        margin-bottom: 1rem;
+    }
+}
+
+.title-box {
+    margin-bottom: 1.313rem;
+}
+
+
+// display: flex =======================================
+
+.display-f {
+    &-start {
+        @include flex(start, center, false, false);
+    }
+    &-column-start {
+        @include flex(start, start, column, false);
+    }
+    &-center {
+        @include flex(center, center, false, false);
+    }
+    &-column-center {
+        @include flex(center, center, column, false);
+    }
+    &-space-between {
+        @include flex(space-between, center, false, false);
+    }
+    &-space-around {
+        @include flex(space-around, center, false, false);
+    }
+    &-space-evenly {
+        @include flex(space-evenly, center, false, false);
+    }
+
+}
+
+
+// circle Image =======================================
+
+.avatar-box {
+    cursor: pointer;
+    .avatar {
+        &-min {
+            @include avatar(1.606875rem, false);
+            &.active {
+                padding: 3px;
+                border: 1px solid #C31432;
+                box-sizing: border-box;
+            }
+            &.deactive {
+                padding: 3px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                box-sizing: border-box;
+            }
+        }
+        &-max {
+            @include avatar(3.75rem, false);
+            &.active {
+                padding: 3px;
+                border: 1px solid #C31432;
+                box-sizing: border-box;
+            }
+            &.deactive {
+                padding: 3px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                box-sizing: border-box;
+            }
+        }
+        &-medium {
+            @include avatar(3.125rem, false);
+            &.active {
+                padding: 3px;
+                border: 1px solid #C31432;
+                box-sizing: border-box;
+            }
+            &.deactive {
+                padding: 3px;
+                border: 1px solid rgba(255, 255, 255, 0.5);
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+
+
+// Search-input =======================================
+
+.searchBox {
+    width: 100%;
+    max-width: 77%;    
+    position: relative;
+    .search-primary {
+        width: 100%;
+        height: 2em;
+        background-color: transparent;
+        color: $white;
+        box-sizing: border-box;
+        padding: 25px 30px 25px 35px;
+        border: 1px solid rgba(196, 196, 196, 0.1);
+        border-radius: 15px;
+        font-size: 17px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 2px 0px;                    
+        transition: 0.5s;
+    }:hover {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
+        transition: 0.2s;
+    }
+    svg {
+        position: absolute;
+        top: 14px;
+    }
+    svg:nth-child(1) {
+        left: 10px;
+    }
+    svg:nth-child(2) {
+        right: 10px;
+    }
+}
+
+.primary-input {
+    width: 100%;
+    height: 5vh;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: $titleColor;
+    padding: 0px 5px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .main-dashboard {
+        .container-min {
+            width: 100%;
+            flex-basis: 100% !important;
+            .video-description {
+                width: 100%;
+                margin: 0;
+            }
+        }
+    }
+}

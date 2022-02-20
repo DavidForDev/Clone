@@ -1,0 +1,13 @@
+@import '../../styles/mixin.style.scss';
+
+#story-card {
+    width: 100%;
+    min-width: fit-content;
+    margin-right: 32px;
+    @include flex(center, center, false, false);
+    flex-direction: column;
+    position: relative;
+    img {
+        margin-bottom: 4px;
+    }
+}   

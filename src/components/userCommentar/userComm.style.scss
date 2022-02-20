@@ -1,0 +1,47 @@
+@import '../../styles/mixin.style.scss';
+
+.comment-box {
+    width: 100%;
+    @include flex(start, start, column, false);
+    margin-bottom: 25px;
+    .comm-box {
+        @include flex(start, start, false, false);
+        .avatar-box {
+            margin-right: 10px;
+        }
+        .user-info {
+            .user-detail {
+                margin-bottom: 4px;
+                h3 {
+                    margin-bottom: 5px;
+                }
+            }
+            p {
+                font-size: 14px;
+            }
+            h3 {
+                font-size: 14px;
+            }
+            .tools {
+                svg {
+                    width: 25px;
+                    margin-right: 2px;
+                }
+                div {
+                    margin-right: 4px;
+                }
+                span {
+                    font-size: 13px;
+                }
+            }
+        }    
+    }
+    .reply-boxes {
+        // border-left: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+
+.comm-reply {
+    padding: 20px 40px 0;
+}

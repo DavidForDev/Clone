@@ -1,0 +1,24 @@
+@import '../styles/mixin.style.scss';
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .container {
+        height: 100vh;
+        &-right {
+            flex-basis: 300px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            position: relative;
+            transition: 1s;
+        }
+        &-left {
+            flex-basis: 400px;
+            flex-grow: 2;
+            flex-shrink: 10;
+            transition: 1s;
+        }
+    }
+}

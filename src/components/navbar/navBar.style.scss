@@ -1,0 +1,56 @@
+@import '../../styles/mixin.style.scss';
+
+.menu {
+    width: 15rem;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(55, 74, 98, 0.1) 0%, rgba(42, 82, 152, 0.04) 100%);
+    position:fixed;
+    overflow: auto;
+    transition: all .7s;
+    box-shadow: rgba(99, 99, 99, 0.2) 3px 0px 8px 0px;
+    .navigation {
+        padding: 20px;
+        overflow-x: hidden;
+        .nav-section {
+            box-sizing: border-box;
+            padding: 3px;
+            .menu-article {
+                margin: 2.3rem 0;
+                .nav-ul {
+                    width: 100%;
+                    .ul-li {
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        a {
+                            width: 100%;
+                            @include flex(start, center, false, false);
+                            p {
+                                margin-left: 1.3rem;
+                                overflow: hidden;
+                                animation: none;
+                            }
+                            &:hover {
+                                p {
+                                    color: white;
+                                    &:active {
+                                        color:rgba(255, 255, 255, 0.863);
+                                    }
+                                }
+                            }              
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes p-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        width: 1;
+    }
+}
