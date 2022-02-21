@@ -70,13 +70,15 @@ const Dashboard = () => {
 
     // When we want to check pathName but not as string
     let pathname = window.location.pathname;
-    let appId = JSON.parse(pathname.split('/')[1]);
+    let appId = pathname.split('/')[1];
 
     base.videos.map((e) => {
         if(e._id === appId) {
             return exactlyBase.push(e);
         }
     })    
+
+    console.log(exactlyBase);
 
 
     // increase / decrease
